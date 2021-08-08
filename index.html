@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Web Studio</title>
 </head>
 <body>
-    <header>
-        <nav>
-          <a href="1">Web Studio</a>
+    <header class="header">
+        <nav class="header-nav">
+          <a class="link logo" href="./index.html"> <span class="link lo">Web</span> Studio</a>
           <ul>
             <li>
-              <a href="2">Студия</a>
+              <a class="link current" href="./index.html">Студия</a>
             </li>
             <li>
-              <a href="3">Портфолио</a>
+              <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
             <li>
-              <a href="4">Контакты</a>
+              <a class="link" href="4">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul>
+        <ul class="list">
             <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
     </header>
     <main>
-        <div>
-          <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button type="button">Заказать услугу</button>
-        </div>
-        <div>
+      <!-- glavnaya -->
+        <section class="glavnaya">
+          <h1 class="glavnaya-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <button class="link-button" type="button">Заказать услугу</button>
+        </section>
+      <!-- end glavnaya -->
+        <section>
           <ul>
             <li>
               <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -55,8 +58,8 @@
               <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
-        </div>
-        <div>
+        </section>
+        <section>
           <ul>
             <li>
               <h2>Чем мы занимаемся</h2>
@@ -71,8 +74,8 @@
               <img src="./images/imgipad.jpg" alt="Айпад" width="380" height="294" />
             </li>
           </ul>
-        </div>
-        <div>
+        </section>
+        <section>
           <ul>
             <li>
               <h2>Наша команда</h2>
@@ -98,7 +101,7 @@
               <p>UI Designer</p>
             </li>
           </ul>
-        </div>
+        </section>
       </main>
       <footer>
         <a href="./">Web Studio</a>
